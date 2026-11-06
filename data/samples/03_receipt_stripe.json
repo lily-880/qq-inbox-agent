@@ -1,0 +1,7 @@
+{
+  "id": "03_receipt_stripe",
+  "label": "receipt",
+  "from": "receipts@stripe.com",
+  "subject": "Your receipt from Example AI Inc. #1842-3301",
+  "body": "Example AI Inc.\nReceipt #1842-3301\nAmount paid: $5.00\nDate paid: Nov 4, 2026, 21:44 Asia/Shanghai\nPayment method: Visa •••• 4242\n\nSummary\nPrepaid API credits — $5.00\n\nThis is a receipt for your records. No action needed.\n"
+}

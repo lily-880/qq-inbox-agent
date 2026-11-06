@@ -1,0 +1,62 @@
+[
+  {
+    "id": "01_job_hr_screen",
+    "label": "job",
+    "action": "draft_followup",
+    "needs_reply": true
+  },
+  {
+    "id": "02_job_interview_invite",
+    "label": "job",
+    "action": "draft_followup",
+    "needs_reply": true
+  },
+  {
+    "id": "03_receipt_stripe",
+    "label": "receipt",
+    "action": "summarize_only",
+    "needs_reply": false
+  },
+  {
+    "id": "04_receipt_invoice",
+    "label": "receipt",
+    "action": "summarize_only",
+    "needs_reply": false
+  },
+  {
+    "id": "05_otp_login",
+    "label": "otp",
+    "action": "ignore",
+    "needs_reply": false
+  },
+  {
+    "id": "06_otp_password_reset",
+    "label": "otp",
+    "action": "ignore",
+    "needs_reply": false
+  },
+  {
+    "id": "07_promo_course",
+    "label": "promo",
+    "action": "ignore",
+    "needs_reply": false
+  },
+  {
+    "id": "08_promo_giftcard",
+    "label": "promo",
+    "action": "ignore",
+    "needs_reply": false
+  },
+  {
+    "id": "09_other_event",
+    "label": "other",
+    "action": "summarize_only",
+    "needs_reply": false
+  },
+  {
+    "id": "10_other_personal",
+    "label": "other",
+    "action": "ask_user",
+    "needs_reply": true
+  }
+]

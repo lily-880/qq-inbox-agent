@@ -1,0 +1,7 @@
+{
+  "id": "08_promo_giftcard",
+  "label": "promo",
+  "from": "offers@nediya-promo.example",
+  "subject": "恭喜！您有一张待领取礼品卡",
+  "body": "亲爱的用户：系统检测到您有一张待领取电子礼品卡，今日领取额外加赠积分。立即领取 >>（样例，无真实活动）。如不想再收到此类邮件，可在底部退订。\n"
+}

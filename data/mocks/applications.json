@@ -1,0 +1,18 @@
+{
+  "applications": [
+    {
+      "id": "app-example-tech",
+      "company": "Example Tech",
+      "role": "AI应用开发实习生",
+      "status": "初筛通过",
+      "related_email_id": "01_job_hr_screen"
+    },
+    {
+      "id": "app-example-corp",
+      "company": "Example Corp",
+      "role": "大模型算法工程师实习",
+      "status": "待面试",
+      "related_email_id": "02_job_interview_invite"
+    }
+  ]
+}

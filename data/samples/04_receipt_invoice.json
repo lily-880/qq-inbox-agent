@@ -1,0 +1,7 @@
+{
+  "id": "04_receipt_invoice",
+  "label": "receipt",
+  "from": "billing@x.ai.example",
+  "subject": "Invoice C53T-DEMO-0001 from Example Cloud",
+  "body": "Hi 傅公羽,\n\nThanks for your payment. Invoice number: C53T-DEMO-0001\nBilling period: Nov 2026\nTotal: USD 5.00\nStatus: Paid\n\nDownload PDF from your billing portal (link omitted in sample).\n"
+}

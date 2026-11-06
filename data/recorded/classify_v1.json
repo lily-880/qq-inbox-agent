@@ -1,0 +1,97 @@
+{
+  "total": 10,
+  "correct": 9,
+  "accuracy": 0.9,
+  "rows": [
+    {
+      "id": "01_job_hr_screen",
+      "gold": "job",
+      "pred": "job",
+      "ok": true,
+      "confidence": 0.99,
+      "reason": "发件人为HR，主题和正文均涉及实习岗位初筛通过及面试安排。",
+      "summary": "AI应用开发实习生简历已通过初筛，需回复工作日方便时间参加30分钟线上面试。"
+    },
+    {
+      "id": "02_job_interview_invite",
+      "gold": "job",
+      "pred": "job",
+      "ok": true,
+      "confidence": 0.99,
+      "reason": "发件人为校招组，内容为实习技术面试邀请，属于求职招聘类。",
+      "summary": "邀请参加大模型算法工程师实习技术面试，需确认11月12日14:00能否出席。"
+    },
+    {
+      "id": "03_receipt_stripe",
+      "gold": "receipt",
+      "pred": "receipt",
+      "ok": true,
+      "confidence": 0.99,
+      "reason": "Stripe 发送的付款收据，包含金额、支付方式和日期。",
+      "summary": "Example AI Inc. 的 5 美元预付费 API 额度付款收据，无需操作。"
+    },
+    {
+      "id": "04_receipt_invoice",
+      "gold": "receipt",
+      "pred": "receipt",
+      "ok": true,
+      "confidence": 0.99,
+      "reason": "邮件是付款成功后的账单通知，包含发票号、金额和已支付状态。",
+      "summary": "Example Cloud 2026年11月账单已支付，金额5美元，发票号C53T-DEMO-0001。"
+    },
+    {
+      "id": "05_otp_login",
+      "gold": "otp",
+      "pred": "otp",
+      "ok": true,
+      "confidence": 0.99,
+      "reason": "邮件包含登录验证码，属于安全验证类邮件。",
+      "summary": "平台发送的登录验证码，5分钟内有效，提醒勿泄露。"
+    },
+    {
+      "id": "06_otp_password_reset",
+      "gold": "otp",
+      "pred": "otp",
+      "ok": true,
+      "confidence": 0.99,
+      "reason": "邮件包含密码重设验证码，属于登录安全类通知。",
+      "summary": "账号收到密码重设请求，邮件提供了验证码并提示检查账号安全。"
+    },
+    {
+      "id": "07_promo_course",
+      "gold": "promo",
+      "pred": "promo",
+      "ok": true,
+      "confidence": 0.98,
+      "reason": "发件人为课程推广邮箱，主题和正文均为限时折扣课程推销。",
+      "summary": "Agentic AI 进阶课本周限时五折促销，附赠课件。"
+    },
+    {
+      "id": "08_promo_giftcard",
+      "gold": "promo",
+      "pred": "promo",
+      "ok": true,
+      "confidence": 0.98,
+      "reason": "发件人为促销域名，内容为礼品卡领取营销广告。",
+      "summary": "通知用户领取电子礼品卡并加赠积分，属营销推广。"
+    },
+    {
+      "id": "09_other_event",
+      "gold": "other",
+      "pred": "job",
+      "ok": false,
+      "confidence": 0.95,
+      "reason": "发件人为学校就业指导中心，内容为校园宣讲会通知，属于招聘活动。",
+      "summary": "TME将于11月10日18:30在嘉定校区教学楼A101举行宣讲会，请提前10分钟入场。"
+    },
+    {
+      "id": "10_other_personal",
+      "gold": "other",
+      "pred": "other",
+      "ok": true,
+      "confidence": 0.95,
+      "reason": "这是同学之间关于组会时间调整的日常通知，不属于招聘、账单、验证码或营销类别。",
+      "summary": "周六组会改到下午3点，仍在原线上会议室，有冲突需提前告知。"
+    }
+  ]
+}

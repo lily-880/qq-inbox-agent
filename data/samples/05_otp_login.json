@@ -1,0 +1,7 @@
+{
+  "id": "05_otp_login",
+  "label": "otp",
+  "from": "noreply@secure-login.example",
+  "subject": "您的登录验证码",
+  "body": "【示例平台】验证码 482917，5 分钟内有效。如非本人操作请忽略。请勿将验证码告知他人。\n"
+}

@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.DS_Store
+uploads/
+data/eval_results.json
+data/action_eval_results.json
+data/outbox/

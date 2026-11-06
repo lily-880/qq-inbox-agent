@@ -1,0 +1,7 @@
+{
+  "id": "07_promo_course",
+  "label": "promo",
+  "from": "hello@deeplearning-promo.example",
+  "subject": "限时优惠：Agentic AI 进阶课 5 折",
+  "body": "同学你好！本周课程大促：Agentic AI 进阶班限时 5 折，还能赠送独家课件。点击立即报名（样例邮件无真实链接）。退订请回复 UNSUBSCRIBE。\n"
+}
